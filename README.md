@@ -63,7 +63,7 @@ The main files in this repository are:
 
 1.  **Clone the repository:**
     ```bash
-    git clone (https://github.com/Haimavatinandan2004Pati/Micro-Grid-Modelling-and-Simulation.git)
+    git clone https://github.com/Haimavatinandan2004Pati/Micro-Grid-Modelling-and-Simulation.git
     cd Micro-Grid-Modelling-and-Simulation
     ```
 2.  **Open MATLAB.**
