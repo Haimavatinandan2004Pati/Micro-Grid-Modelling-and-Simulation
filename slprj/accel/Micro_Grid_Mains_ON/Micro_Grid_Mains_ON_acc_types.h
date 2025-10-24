@@ -1,0 +1,7 @@
+#ifndef Micro_Grid_Mains_ON_acc_types_h_
+#define Micro_Grid_Mains_ON_acc_types_h_
+typedef struct P_Subsystempi2delay_Micro_Grid_Mains_ON_T_
+P_Subsystempi2delay_Micro_Grid_Mains_ON_T ; typedef struct
+P_Subsystem1_Micro_Grid_Mains_ON_T_ P_Subsystem1_Micro_Grid_Mains_ON_T ;
+typedef struct P_Micro_Grid_Mains_ON_T_ P_Micro_Grid_Mains_ON_T ;
+#endif

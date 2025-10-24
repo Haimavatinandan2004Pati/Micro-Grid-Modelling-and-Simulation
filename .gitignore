@@ -1,0 +1,29 @@
+# MATLAB Data Files
+# Exclude .mat files, which are often large simulation outputs or temporary data
+*.mat
+
+# MATLAB/Simulink Generated Files (e.g., cached models, p-code)
+*.slxc
+*.p
+
+# Spreadsheet and Data Exchange Files (often used for config or output)
+*.xlsx
+*.xlsm
+*.xls
+
+# Visual Studio Code Cache/Settings
+# Ignore the .vscode folder which contains user-specific settings and cache
+.vscode/
+
+# Operating System Files
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Generic Cache, Log, and Build Folders
+/build/
+/dist/
+/target/
+*.log

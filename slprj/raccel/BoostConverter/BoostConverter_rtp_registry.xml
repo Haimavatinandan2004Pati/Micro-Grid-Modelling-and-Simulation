@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_param_rtp/R2023a">
+  <slsa.mm.param.rtp.ModelMetadata type="slsa.mm.param.rtp.ModelMetadata" uuid="0b187dcb-8dec-4bab-b621-87098a080097">
+    <modelName>BoostConverter</modelName>
+  </slsa.mm.param.rtp.ModelMetadata>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="0b2c2ff3-5b9c-4306-be59-589165a2fd50">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="588ee71c-a567-4b93-ab82-11562868bceb"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="208750fb-cf98-4290-8c0a-2134392f4038"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cbce6b80-545d-4605-af29-11aa7c014052">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="7274e02c-11d0-49b8-b618-840839877ecc"/>
+    <valueIndices>149</valueIndices>
+    <valueIndices>772</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8c411291-ab38-4796-b1c9-7484db798644">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="647a8544-9873-47a3-9b37-b6637ba2b269"/>
+    <valueIndices>5</valueIndices>
+    <valueIndices>5</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="8c9181b4-3ba0-463c-a4b6-ca32a1c011de">
+    <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>P10</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="c2e7e648-a102-4f1f-bbad-b2325e6c61dd"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e40640ab-3abf-43d5-a02d-c663a694e442">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="498a2970-f11a-470a-bb8f-b7084e307c31"/>
+    <valueIndices>139</valueIndices>
+    <valueIndices>142</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="647a8544-9873-47a3-9b37-b6637ba2b269">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ca10cf13-0169-497a-97cf-8665708b9a28"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="8c411291-ab38-4796-b1c9-7484db798644"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="0a4286e8-87b3-4674-958d-61115462e51a">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ed5e55c4-4ed7-473e-a883-872c41394352"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2f7ea087-69ca-4bf1-97dc-71e1302e023f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ca10cf13-0169-497a-97cf-8665708b9a28">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/Saturation</blockPath>
+    <name>UpperLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="647a8544-9873-47a3-9b37-b6637ba2b269"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4511426e-070a-40eb-9806-aabb46e8ad4e">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="018430f1-e439-4ab7-89ed-ade0d14dfba4"/>
+    <valueIndices>817</valueIndices>
+    <valueIndices>817</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="0524e972-2552-45d7-b6a8-810df41a8c44">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="d72bc580-2052-499b-b3f4-e86451f19982"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f0ffabe6-9b46-432e-a0ba-6fb38f5df45b"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="d72bc580-2052-499b-b3f4-e86451f19982">
+    <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>P1</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="0524e972-2552-45d7-b6a8-810df41a8c44"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="7088defc-b951-4609-9776-226549dcfe9a">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="bf39e33a-b5a2-48ec-b0c3-3af424918b49"/>
+    <valueIndices>783</valueIndices>
+    <valueIndices>785</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f0ffabe6-9b46-432e-a0ba-6fb38f5df45b">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="0524e972-2552-45d7-b6a8-810df41a8c44"/>
+    <valueIndices>9</valueIndices>
+    <valueIndices>136</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="09d0970e-594e-4d50-a856-57c96e778b46">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="69b2d80b-8614-4de0-ad17-877f6116fc1c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="795e3bd8-cf65-440b-bd2f-40127a0aeca0"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="496ab078-db3f-46e4-8cba-22d0b3104b74">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/capacity</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5c6f38fd-1eb7-4b88-a2e3-1ee9298010a6"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="498a2970-f11a-470a-bb8f-b7084e307c31">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="4789dc1e-ccb5-42e9-a49f-4ee4c4d0d78f"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e40640ab-3abf-43d5-a02d-c663a694e442"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="07d4fd09-fd8e-44fc-a3d5-fe4fc9e40dbe">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="44ec5347-e8a2-44ee-98f7-48e65e3cfd99"/>
+    <valueIndices>804</valueIndices>
+    <valueIndices>804</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="4789dc1e-ccb5-42e9-a49f-4ee4c4d0d78f">
+    <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>P2</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="498a2970-f11a-470a-bb8f-b7084e307c31"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="f5e66fa4-bda8-48c0-8d5c-850997f944e1">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="41fd6674-81b5-43f4-812f-8da5395c66f0"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1025c01b-05c8-4ea4-b964-419607eebf56"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="018430f1-e439-4ab7-89ed-ade0d14dfba4">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="ad67b8d1-7704-418b-b7b8-0f625c18636b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="4511426e-070a-40eb-9806-aabb46e8ad4e"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="81ccf886-43c8-48eb-9c9b-bc14a98cee3e">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="4321c7c5-5db8-421e-bcc3-478546b30618"/>
+    <valueIndices>775</valueIndices>
+    <valueIndices>780</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="41fd6674-81b5-43f4-812f-8da5395c66f0">
+    <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>P3</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="f5e66fa4-bda8-48c0-8d5c-850997f944e1"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="d074cb0d-f0cc-46ab-8824-461572adbb19">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="32137b59-c190-4f8d-a6ee-72b1298539fe"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6c3e6bb0-cac3-4de9-bd26-116ee1326de7"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="1025c01b-05c8-4ea4-b964-419607eebf56">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="f5e66fa4-bda8-48c0-8d5c-850997f944e1"/>
+    <valueIndices>145</valueIndices>
+    <valueIndices>146</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="10f76499-3fc1-40f5-9071-785952b2583b">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="80a563bc-fc98-4537-873e-c2991ad45c59"/>
+    <valueIndices>813</valueIndices>
+    <valueIndices>813</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="32137b59-c190-4f8d-a6ee-72b1298539fe">
+    <blockPath>BoostConverter/PWM Generator (DC-DC)/Sawtooth Generator/Model/1\ib2</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d074cb0d-f0cc-46ab-8824-461572adbb19"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="7274e02c-11d0-49b8-b618-840839877ecc">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b614ab61-6da5-4458-980c-6b0998ca3a3a"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cbce6b80-545d-4605-af29-11aa7c014052"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="f6b655c1-d46b-46aa-99a4-f24db65af65f">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="65147af8-f029-4113-b58a-ebc303ac85ef"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e6c2c28f-e213-42f2-8cda-1255d8b09806"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="36300aab-b78c-4ce0-9784-73768b0122db">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="798099db-f9be-4402-8da9-a2b9d583ac3f"/>
+    <valueIndices>788</valueIndices>
+    <valueIndices>790</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="f6f315ad-b6bf-4fe0-ab67-182830836813">
+    <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>P7</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="798099db-f9be-4402-8da9-a2b9d583ac3f"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b614ab61-6da5-4458-980c-6b0998ca3a3a">
+    <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>P4</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="7274e02c-11d0-49b8-b618-840839877ecc"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="4321c7c5-5db8-421e-bcc3-478546b30618">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="346b5ca0-0dd8-40db-b790-846b8d06ad0f"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="81ccf886-43c8-48eb-9c9b-bc14a98cee3e"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="346b5ca0-0dd8-40db-b790-846b8d06ad0f">
+    <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>P5</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="4321c7c5-5db8-421e-bcc3-478546b30618"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="bf39e33a-b5a2-48ec-b0c3-3af424918b49">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="3a151a9d-aa9d-4d8f-9da0-97d725ea2096"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="7088defc-b951-4609-9776-226549dcfe9a"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="3a151a9d-aa9d-4d8f-9da0-97d725ea2096">
+    <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>P6</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="bf39e33a-b5a2-48ec-b0c3-3af424918b49"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="798099db-f9be-4402-8da9-a2b9d583ac3f">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="f6f315ad-b6bf-4fe0-ab67-182830836813"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="36300aab-b78c-4ce0-9784-73768b0122db"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="795e3bd8-cf65-440b-bd2f-40127a0aeca0">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="09d0970e-594e-4d50-a856-57c96e778b46"/>
+    <valueIndices>824</valueIndices>
+    <valueIndices>824</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="1b3565cc-e14a-429c-8c09-0f2197ff8cc0">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="27129702-ed7f-44a8-9f6d-44b99f80de2c"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="31dbfcc3-d291-4c7c-810d-3f3ddc417494"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="27129702-ed7f-44a8-9f6d-44b99f80de2c">
+    <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>P8</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="1b3565cc-e14a-429c-8c09-0f2197ff8cc0"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="31dbfcc3-d291-4c7c-810d-3f3ddc417494">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="1b3565cc-e14a-429c-8c09-0f2197ff8cc0"/>
+    <valueIndices>793</valueIndices>
+    <valueIndices>795</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="65147af8-f029-4113-b58a-ebc303ac85ef">
+    <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+    <name>P9</name>
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="f6b655c1-d46b-46aa-99a4-f24db65af65f"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="e6c2c28f-e213-42f2-8cda-1255d8b09806">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="f6b655c1-d46b-46aa-99a4-f24db65af65f"/>
+    <valueIndices>798</valueIndices>
+    <valueIndices>798</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="42d14d13-61d9-4dfa-a8e2-284686625c4b">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/Initial it</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="44ec5347-e8a2-44ee-98f7-48e65e3cfd99"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.SFunctionParameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="c2e7e648-a102-4f1f-bbad-b2325e6c61dd">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="8c9181b4-3ba0-463c-a4b6-ca32a1c011de"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cf926c0c-1dd9-4f4d-ae76-892d91072087"/>
+  </slsa.mm.param.rtp.SFunctionParameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="cf926c0c-1dd9-4f4d-ae76-892d91072087">
+    <parameter type="slsa.mm.param.rtp.SFunctionParameter" uuid="c2e7e648-a102-4f1f-bbad-b2325e6c61dd"/>
+    <valueIndices>801</valueIndices>
+    <valueIndices>801</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="cff2a753-3359-41da-b16a-c646eac7736c">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="bbe119a7-9977-465a-b6c0-885bd38cedae"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c001915f-f632-42fb-9521-ba8542921ce4"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="44ec5347-e8a2-44ee-98f7-48e65e3cfd99">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="42d14d13-61d9-4dfa-a8e2-284686625c4b"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="07d4fd09-fd8e-44fc-a3d5-fe4fc9e40dbe"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="18e8ea56-4c43-4610-a7fb-4569de151864">
+    <blockPath>BoostConverter/PWM Generator (DC-DC)/Sawtooth Generator/Model/Constant2</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a9980768-64fd-48a3-b78b-f54f550feb6e"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="588ee71c-a567-4b93-ab82-11562868bceb">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/Coulomb Counter</blockPath>
+    <name>UpperSaturationLimit</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0b2c2ff3-5b9c-4306-be59-589165a2fd50"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="208750fb-cf98-4290-8c0a-2134392f4038">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0b2c2ff3-5b9c-4306-be59-589165a2fd50"/>
+    <valueIndices>805</valueIndices>
+    <valueIndices>805</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="0d450300-76ca-4bce-9189-ff6c7f577b10">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="80f0640c-4556-43b8-8712-315e70028f67"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d108b61f-e1ce-4b25-a919-583e5b99ca28"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="c001915f-f632-42fb-9521-ba8542921ce4">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cff2a753-3359-41da-b16a-c646eac7736c"/>
+    <valueIndices>815</valueIndices>
+    <valueIndices>815</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="80a563bc-fc98-4537-873e-c2991ad45c59">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="922c02b3-d065-45b5-a14f-97ecb5ed732a"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="10f76499-3fc1-40f5-9071-785952b2583b"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="80f0640c-4556-43b8-8712-315e70028f67">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/Exponential Zone Voltage/Integrator2</blockPath>
+    <name>InitialCondition</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0d450300-76ca-4bce-9189-ff6c7f577b10"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="d108b61f-e1ce-4b25-a919-583e5b99ca28">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0d450300-76ca-4bce-9189-ff6c7f577b10"/>
+    <valueIndices>812</valueIndices>
+    <valueIndices>812</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="922c02b3-d065-45b5-a14f-97ecb5ed732a">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="80a563bc-fc98-4537-873e-c2991ad45c59"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ad67b8d1-7704-418b-b7b8-0f625c18636b">
+    <blockPath>BoostConverter/PWM Generator (DC-DC)/Sawtooth Generator/Model/Constant4</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="018430f1-e439-4ab7-89ed-ade0d14dfba4"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="ed5e55c4-4ed7-473e-a883-872c41394352">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/Exponential Zone Voltage/Gain</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0a4286e8-87b3-4674-958d-61115462e51a"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="2f7ea087-69ca-4bf1-97dc-71e1302e023f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="0a4286e8-87b3-4674-958d-61115462e51a"/>
+    <valueIndices>814</valueIndices>
+    <valueIndices>814</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="bbe119a7-9977-465a-b6c0-885bd38cedae">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/Exponential Zone Voltage/Gain1</blockPath>
+    <name>Gain</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="cff2a753-3359-41da-b16a-c646eac7736c"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="69b2d80b-8614-4de0-ad17-877f6116fc1c">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/Constant</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="09d0970e-594e-4d50-a856-57c96e778b46"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="a9980768-64fd-48a3-b78b-f54f550feb6e">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="18e8ea56-4c43-4610-a7fb-4569de151864"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="597fb94b-c69d-4ffc-88a0-277e07074ac5"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="597fb94b-c69d-4ffc-88a0-277e07074ac5">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="a9980768-64fd-48a3-b78b-f54f550feb6e"/>
+    <valueIndices>818</valueIndices>
+    <valueIndices>818</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="6c3e6bb0-cac3-4de9-bd26-116ee1326de7">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="d074cb0d-f0cc-46ab-8824-461572adbb19"/>
+    <valueIndices>819</valueIndices>
+    <valueIndices>819</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="b80a6b06-0a85-4726-b8c0-495ed07e9557">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="b968bd20-0fb6-4c3d-8c15-8d28d2382049"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="beaa4753-5da5-4bf1-ae43-83ced389b499"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="b968bd20-0fb6-4c3d-8c15-8d28d2382049">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/Constant1</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b80a6b06-0a85-4726-b8c0-495ed07e9557"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="beaa4753-5da5-4bf1-ae43-83ced389b499">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="b80a6b06-0a85-4726-b8c0-495ed07e9557"/>
+    <valueIndices>825</valueIndices>
+    <valueIndices>825</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="5c6f38fd-1eb7-4b88-a2e3-1ee9298010a6">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="496ab078-db3f-46e4-8cba-22d0b3104b74"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9e18eb01-05f4-4837-8a77-e639d0cd065f"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="9e18eb01-05f4-4837-8a77-e639d0cd065f">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="5c6f38fd-1eb7-4b88-a2e3-1ee9298010a6"/>
+    <valueIndices>826</valueIndices>
+    <valueIndices>826</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="198a6d2f-57aa-4a05-b0af-f6e9045851fe">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="9d9ede3f-567d-4e65-97a4-e72a0cdaae98"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f1cb5388-93f3-46ba-b700-db68c1a1bd7c"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="9d9ede3f-567d-4e65-97a4-e72a0cdaae98">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/constantK</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="198a6d2f-57aa-4a05-b0af-f6e9045851fe"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="f1cb5388-93f3-46ba-b700-db68c1a1bd7c">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="198a6d2f-57aa-4a05-b0af-f6e9045851fe"/>
+    <valueIndices>827</valueIndices>
+    <valueIndices>827</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="160b0111-3997-4ff1-a9ef-ec8ca3f70408">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="afefa6ce-daeb-43d3-b836-4ac7b7f91973"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="61fa8bf5-7e31-48dc-a54c-219ee1eab86d"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="afefa6ce-daeb-43d3-b836-4ac7b7f91973">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/constantA</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="160b0111-3997-4ff1-a9ef-ec8ca3f70408"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="61fa8bf5-7e31-48dc-a54c-219ee1eab86d">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="160b0111-3997-4ff1-a9ef-ec8ca3f70408"/>
+    <valueIndices>828</valueIndices>
+    <valueIndices>828</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+  <slsa.mm.param.rtp.Parameter type="slsa.mm.param.rtp.Parameter" uuid="84704428-8aae-4d47-8f08-d5ddb567cb58">
+    <id type="slsa.mm.param.rtp.BlockParameterId" uuid="0e55f4f1-3a1e-4833-a590-3ea8b58836a0"/>
+    <rtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="abef7c42-cf20-4217-9f5b-1918d8805b52"/>
+  </slsa.mm.param.rtp.Parameter>
+  <slsa.mm.param.rtp.BlockParameterId type="slsa.mm.param.rtp.BlockParameterId" uuid="0e55f4f1-3a1e-4833-a590-3ea8b58836a0">
+    <blockPath>BoostConverter/Battery1/Model/Continuous/constantB</blockPath>
+    <name>Value</name>
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="84704428-8aae-4d47-8f08-d5ddb567cb58"/>
+  </slsa.mm.param.rtp.BlockParameterId>
+  <slsa.mm.param.rtp.RtpLocation type="slsa.mm.param.rtp.RtpLocation" uuid="abef7c42-cf20-4217-9f5b-1918d8805b52">
+    <parameter type="slsa.mm.param.rtp.Parameter" uuid="84704428-8aae-4d47-8f08-d5ddb567cb58"/>
+    <valueIndices>829</valueIndices>
+    <valueIndices>829</valueIndices>
+  </slsa.mm.param.rtp.RtpLocation>
+</MF0>

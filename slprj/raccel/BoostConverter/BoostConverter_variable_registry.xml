@@ -1,0 +1,1038 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/slsa_mm_param_graph/R2021b">
+  <slsa.mm.param.graph.VariableRegistry type="slsa.mm.param.graph.VariableRegistry" uuid="ede576af-5787-4ac3-9b04-889e2681bfdd">
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="0331c3b0-1bc2-4106-88c4-4a9b7f4a82dc">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/Constant1</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="6ae512f3-f059-4af6-a8fb-286a6f1720c8"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="ad4aff4c-04b6-4069-bad8-61d8a878122a">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="c37eaa89-6572-4c29-85da-014bee7a1277">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/Saturation</blockPath>
+      <parameterName>UpperLimit</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="99c21c90-905d-43e1-a70e-2cf996b80841"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="6098d9e8-1f84-4b08-9812-3421d404ff66">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="03f6edea-9991-4ca4-924b-6bd48db6da02">
+      <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>P5</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="7c818d0d-cfb9-4772-aa8f-f6299bcadcd1"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="e90525af-94c5-415a-8473-9dea7dd6a19d">
+      <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>P7</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="5af85810-4328-41f1-ba8e-00a462566463"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="e155e6ac-dd6b-4868-aad5-3cfcfdfb9caf">
+      <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>P1</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="c7f55000-72f7-44cf-84b8-2d881e5a097c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="1e10000e-d037-4c3f-bb37-650c6aeff5fb">
+      <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>P2</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="198fd2ae-761e-4e15-8c2e-4f606a0c4029"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="7a3ff7b2-d24e-4976-8330-d4c3de8bd18b">
+      <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>P6</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="34a8d6dd-41b0-488f-84ed-48a595aa47a8"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="428143f0-582b-434d-baff-99e2729c5d8e">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/constantA</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="c946059d-ed27-45db-af9c-cf090be19566"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="590a3c1f-f9d0-435f-ba2f-b1a14370b772">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="42c7b4cd-8d33-4b33-b530-40ba4892294f">
+      <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>P3</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="58a2deca-f7ae-46f3-9478-da59f189124a"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="94f6865b-5569-41d3-b92f-4d81de616260">
+      <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>P4</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="62b7d9c6-4f3b-4af7-a6f1-5806957816cb"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="72071d68-4693-48eb-9dee-ee30873119d0">
+      <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>P8</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="b75f3406-9f06-4c6b-a4a4-a11553772f64"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="aed1412a-2eac-44ce-9758-ad05813806ec">
+      <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>P9</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="be88bc28-2cd7-4c60-b890-58e05d89d4d6"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="a644299b-8d2e-41bd-a6a4-c2b55f814b87">
+      <blockPath>BoostConverter/powergui/EquivalentModel1/State-Space</blockPath>
+      <parameterName>P10</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="11fdb41a-7853-4835-b5ab-4bdcd09a4234"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="ed662c8a-1188-49a2-a51f-e66a3848bbf3">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/constantK</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="7cff603d-4ff1-4d26-b84d-d19596cf0984"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="86da6ac5-35d0-40b5-97bf-71f9a3b1ba71">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="2d464083-0533-4031-b2b4-4373710248ac">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/Initial it</blockPath>
+      <parameterName>InitialCondition</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="4ef78b96-6b9a-4626-b50f-aa140a9aae9d"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="7a81562e-3585-446b-9799-d8478116dc37">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="f6a2289d-81f4-4416-b3dc-87169f95a8b4">
+      <blockPath>BoostConverter/PWM Generator (DC-DC)/Sawtooth Generator/Model/Constant4</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="7b327f6e-0de0-4bd1-85d5-b9ce1090e345"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="427d6142-5b1f-4737-b670-af72bbfcb861">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="b6df92d5-a545-4441-9bd4-76df88c02268">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/Coulomb Counter</blockPath>
+      <parameterName>UpperSaturationLimit</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="fc1c4d66-3214-47b8-9b6d-fa7063c573de"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="cce1954c-2bc7-46ac-9386-7096e8b83e4d">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="1145a3e2-07fc-4986-8619-ef43cfcd777f">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/constantB</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="3ea5d82a-20bf-43f8-9939-06daab9f8243"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="86c631d0-d089-493d-bddc-c814c68122f0">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="111544aa-89b5-492e-a83f-07d02f96bdc6">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/Exponential Zone Voltage/Integrator2</blockPath>
+      <parameterName>InitialCondition</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="22d45213-d9d1-4b57-8041-8782dab43d53"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="5d98db65-373b-4449-a4b6-5009fcfff98f">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="a05cc822-97eb-40cd-b07e-9136975b0d5a">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/Exponential Zone Voltage/Gain</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="692b53c7-14e0-497c-837e-1a64db911ac8"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="01db7d78-775d-4cd5-ae2d-d671714f2b11">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="e032a4fd-92dc-4015-bae2-5efd93bef460">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/Gain</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="ee54bbe1-d9f9-44c0-93a9-0cee4c06ee7f"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="830ada46-ab5b-48b1-8e6a-d7a9c6c292b5">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="d06b8551-7614-46db-b75d-29c16bd28051">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/Exponential Zone Voltage/Gain1</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="c946059d-ed27-45db-af9c-cf090be19566"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="2e62c1eb-0ebd-4a58-8f27-fd73581fc2f4">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="7cf54265-1947-4a84-a155-4179726d1fd8">
+      <blockPath>BoostConverter/PWM Generator (DC-DC)/Sawtooth Generator/Model/Constant2</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="65cf3538-2640-4fa3-b2cf-1d2753628b7f"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="d43a2978-cb81-4ea6-aacb-9d3b34be4c58">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="08ab0911-4ce3-4175-ab73-a48f49c3a7d8">
+      <blockPath>BoostConverter/PWM Generator (DC-DC)/Sawtooth Generator/Model/1\ib2</blockPath>
+      <parameterName>Gain</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="11f61239-1f14-45ae-ac9a-e7d70afef9ca"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="13ce73c2-ff8e-4a9c-9858-a54dc9c5610e">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="b8b9a185-f646-4c49-9b30-ac5d59e13023">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/Constant</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="688523c2-edd6-40a1-92bc-fb4d406ea0c3"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="62e2eac2-ea29-4e94-a87c-235d0bdd2f68">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="9d85faf1-6248-4af2-8bcd-c84cade27555">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/capacity</blockPath>
+      <parameterName>Value</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="ed20c09f-5adb-4c75-a004-33c697905e72"/>
+      <valueAttributes type="slsa.mm.param.graph.ValueAttributes" uuid="90c20517-3a85-4789-8335-967d209aab90">
+        <className>double</className>
+        <dimensions>1</dimensions>
+        <dimensions>1</dimensions>
+      </valueAttributes>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="6a3bdbc9-b4a1-477f-ac7b-d6210b016e1d">
+      <blockPath>BoostConverter/PWM Generator (DC-DC)/D</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="f137bca9-0c69-469b-b60d-34ca626f053c"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="55718139-967c-492d-bab7-fd861fd2b498">
+      <blockPath>BoostConverter/PWM Generator (DC-DC)/Sawtooth Generator/Model/Unit Delay</blockPath>
+      <parameterName>SampleTime</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="0f56ea6f-7368-4ca9-b754-917138cba6e9"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="4cd4da29-4252-4c30-88b6-7a90966163cb">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/Transfer Fcn1</blockPath>
+      <parameterName>Denominator</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="57162081-91ca-4748-a524-feea6582ad65"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <blockParameters type="slsa.mm.param.graph.BlockParameter" uuid="754e5560-fa69-4215-9a11-f28a4736510c">
+      <blockPath>BoostConverter/Battery1/Model/Continuous/Current Filter</blockPath>
+      <parameterName>Denominator</parameterName>
+      <expression type="slsa.mm.param.graph.Expression" uuid="89e12737-6717-498a-bb18-0e91ab9438b9"/>
+      <tunabilityType>Nontunable</tunabilityType>
+    </blockParameters>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="058c5611-75bd-4930-8b01-812020e1b411">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>0.022222</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="f58cc654-75a9-49e5-bcf2-d7091e384c4f"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="45f318cd-2012-42c1-bf8b-f717c8b90402">
+      <expression>2</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="8b0cabec-e4c8-44b9-b61c-6e2b8fd1b776"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="6ae512f3-f059-4af6-a8fb-286a6f1720c8">
+      <expression>Batt.kcsat</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="c3fb90dd-3f6d-4ef6-a9b4-c9e24369f47e"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="0331c3b0-1bc2-4106-88c4-4a9b7f4a82dc"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="ea7da89b-f1cc-4567-aa6b-15cca3a9ecb9">
+      <expression>12</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="8d55031e-a51b-48fc-80a9-4ce0752c01bb"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="6a4566e5-c1fd-4b9a-a64e-d942c34c39c0">
+      <expression>1</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="ca87edef-73d5-4664-ad9d-267427c76518"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="58a2deca-f7ae-46f3-9478-da59f189124a">
+      <expression>S.x0</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="812c81e4-9317-4002-a971-85b9deb2088e"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="42c7b4cd-8d33-4b33-b530-40ba4892294f"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="d87e3220-3f51-47ae-b567-b2bc6dfe158b">
+      <expression>5.4</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="c2ddf5b2-e9d2-4e71-9b67-78d347fdeb6e"/>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="d143f8fc-820e-4bf4-9ad5-bf3f7d380c95"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="8c8f2dfa-e6d7-49f4-a657-474bdd359f80">
+      <expression>100</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="19f0dd12-dba8-459f-a967-00817c3f18c0"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="2682a817-10f6-445a-a0e2-c3702b2a15e3">
+      <expression>30</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="c8ae8b60-ecb7-4bc3-ad91-8a695cd75c35"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="b75f3406-9f06-4c6b-a4a4-a11553772f64">
+      <expression>S.SwitchTolerance</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="7042da70-e719-4ef2-9e8d-2886e6ed782e"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="72071d68-4693-48eb-9dee-ee30873119d0"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="77624115-275b-4b9f-bfb3-9b7cb5105a56">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>9</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="7942511e-7ecf-4c37-b1c7-4a05b47aacc6"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="f9f2b7d1-b3f0-4ef4-ad86-d8bc9df491c4">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>13.9678</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="b82a701b-d953-46ab-937a-71face76147c"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="6ce6cf8f-fd8a-4817-b708-d63e7487ee3b">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>2.3478</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="08b9b1bf-5393-4c3e-9c0a-8fd68d0fa25f"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="952f44d9-1a3d-47cf-b09c-2036a98f9273">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>4.8835</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="03f15fd1-c393-4da1-9160-ba230655c057"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="de9797e1-44c5-48c6-a30c-77c3afa17a7f">
+      <evaluationMayFail>true</evaluationMayFail>
+      <expression>[12.9646     0.265304]</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="ebb75c0d-d1ee-43c2-afd7-0bed03c27b34"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="c7f55000-72f7-44cf-84b8-2d881e5a097c">
+      <expression>S.Mg</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="2d0d7086-4a82-43ec-86a0-64151a1a504d"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="e155e6ac-dd6b-4868-aad5-3cfcfdfb9caf"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc">
+      <expression>block = gcb;
+[Batt, WantBlockChoice, Ts] = BatteryParamInit(NomV,NomQ,MaxQ,MinV,FullV,Dis_rate,R,Normal_OP,expZone,block);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);</expression>
+      <isAssignable>false</isAssignable>
+      <ownerBlockPath>BoostConverter/Battery1</ownerBlockPath>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="5ddd63a2-554e-44c6-92b0-7f533a94875f"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="e81626d9-5c1c-4ffe-8c14-4539c0648950"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="e8b25816-ad01-4595-ab06-bf58e8e224c1"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="85fc9472-669f-4244-b646-4730d0d6c59a"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="05c03ac2-25fd-46b4-95bb-370c0e139f0d"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="fdec184d-d091-4540-a874-745537e11380"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="5295a588-e3cf-4c7c-8845-3e4a0036b1c9"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="da275cbc-06ab-45c5-813d-d97eec4dc381"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="5ae593e2-c690-4d36-b9a0-6fe1ef6a2ae7"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="6a9076e7-b615-4729-842f-9f2330e628c3"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="492c3e2b-c628-46c0-bb1f-352858f096ee"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="cd8d000e-2cfc-4cb2-b210-98facf521211"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="321b3f37-2e35-4681-a4eb-1c3f0aab3e76"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="9be12940-c499-469c-a370-3eee0ce901f0"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="198fd2ae-761e-4e15-8c2e-4f606a0c4029">
+      <expression>[S.nb.x S.nb.u S.nb.y S.nb.s]</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ce45b080-4804-44ed-95a3-01a454d7bd16"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="f88a3b19-5050-4ac2-9b52-bc6633c88ca8"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ccd82d1d-4077-42ba-b4e0-9d258b771e84"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="f7323776-d344-4a54-8e4f-5c568a7dc990"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="1e10000e-d037-4c3f-bb37-650c6aeff5fb"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="99c21c90-905d-43e1-a70e-2cf996b80841">
+      <expression>2*Batt.E0</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="434066c4-1bd2-4baa-9cea-d6101f328408"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="c37eaa89-6572-4c29-85da-014bee7a1277"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="1f6db395-25e2-4e5b-a870-f88187dd35a6">
+      <expression>0</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="486bdacd-63e5-4c82-911d-1415011e8000"/>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="c6883497-17f3-4459-933d-570c9e5c183d"/>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="a5ae330d-e98b-45e4-b64d-8ed3dc83b7fa"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="692b53c7-14e0-497c-837e-1a64db911ac8">
+      <expression>Batt.B/3600</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="531b9717-1759-4162-8eaf-d71e8e391aea"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="a05cc822-97eb-40cd-b07e-9136975b0d5a"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="29b1ffa7-37c8-4482-be7a-b121f9c3069b">
+      <expression>S  = GetDataForEquivalentModel(&apos;SPID&apos;,gcbh,SwTol);</expression>
+      <isAssignable>false</isAssignable>
+      <ownerBlockPath>BoostConverter/powergui/EquivalentModel1</ownerBlockPath>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="00254b7b-803a-4d55-956e-febdebfb73a4"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="cfea3b35-8766-4b83-b8ed-629e9cc5daff"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="a9650a6a-cfaa-42b1-aa19-09e8e2c542dc">
+      <expression>SwTol</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="15e0c339-f7ff-474f-ad4b-a773194f1a5d"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="880a2213-0f24-4cbd-bcf8-8cab7ecaf69e"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="a2d5f9d6-656d-4fd0-b70a-3a1cf97438ea">
+      <expression>20e3</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="882fd564-3634-472b-ae4f-f97ac21e8f9d"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="22d45213-d9d1-4b57-8041-8782dab43d53">
+      <expression>Batt.A*exp(-Batt.B*(1-SOC/100)*Batt.Q)</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="43739c35-6ec3-49ce-a19e-f5913c6b952e"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="e198cd90-5192-400c-af25-9035fb024896"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="87cd8994-b4b8-43b5-aff4-cc668d97a59f"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="111544aa-89b5-492e-a83f-07d02f96bdc6"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="5ae593e2-c690-4d36-b9a0-6fe1ef6a2ae7"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="62b7d9c6-4f3b-4af7-a6f1-5806957816cb">
+      <expression>S.MgColNames</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="98af411c-1e02-4c10-ab12-e43a00667c4f"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="94f6865b-5569-41d3-b92f-4d81de616260"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="7cff603d-4ff1-4d26-b84d-d19596cf0984">
+      <expression>Batt.K</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="b807bd39-763e-477c-834e-4aad69558ecf"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="ed662c8a-1188-49a2-a51f-e66a3848bbf3"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="fc1c4d66-3214-47b8-9b6d-fa7063c573de">
+      <expression>Batt.Q*3600</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="11d9490b-b696-4115-b88a-7bd69736da84"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="b6df92d5-a545-4441-9bd4-76df88c02268"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="7c818d0d-cfb9-4772-aa8f-f6299bcadcd1">
+      <expression>S.SwitchVf</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="0892ec02-0604-4a73-aef6-74940a0fbf4f"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="03f6edea-9991-4ca4-924b-6bd48db6da02"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="34a8d6dd-41b0-488f-84ed-48a595aa47a8">
+      <expression>S.SwitchType</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ea56fd77-06b2-44f9-8bc3-43b9a5e57c2f"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="7a3ff7b2-d24e-4976-8330-d4c3de8bd18b"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="5af85810-4328-41f1-ba8e-00a462566463">
+      <expression>S.SwitchGateInitialValue</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="a2e61ceb-b0ea-40b8-b78b-a996ec706138"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="e90525af-94c5-415a-8473-9dea7dd6a19d"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="3ea5d82a-20bf-43f8-9939-06daab9f8243">
+      <expression>Batt.B</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="e6757ca0-f132-496b-b9f1-da76e02feddf"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="1145a3e2-07fc-4986-8619-ef43cfcd777f"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="be88bc28-2cd7-4c60-b890-58e05d89d4d6">
+      <expression>S.SaveMatrices</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="666be41a-b238-43a2-b823-f79636c55752"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="aed1412a-2eac-44ce-9758-ad05813806ec"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="11f61239-1f14-45ae-ac9a-e7d70afef9ca">
+      <expression>sps.Freq</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="930d3ea1-324f-409b-96af-0152c7d12805"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="08ab0911-4ce3-4175-ab73-a48f49c3a7d8"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="dd8326fe-9eb6-427e-b07d-be5a33bc340b"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="11fdb41a-7853-4835-b5ab-4bdcd09a4234">
+      <expression>S.BufferSize</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="cd74bfbd-5d4e-4dc1-990d-237fe946bdf7"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="a644299b-8d2e-41bd-a6a4-c2b55f814b87"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="4ef78b96-6b9a-4626-b50f-aa140a9aae9d">
+      <expression>(1-SOC/100)*Batt.Q*(1/Batt.lambda)*3600</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="1ebc7e19-6699-409d-86b7-7e396754dbd9"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="889c0699-889f-4f26-b947-47aabce83e0d"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="2d464083-0533-4031-b2b4-4373710248ac"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="5ae593e2-c690-4d36-b9a0-6fe1ef6a2ae7"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="ee54bbe1-d9f9-44c0-93a9-0cee4c06ee7f">
+      <expression>Batt.R</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="c9fd6301-421e-4fdc-ae60-b90093760a53"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="e032a4fd-92dc-4015-bae2-5efd93bef460"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="89e12737-6717-498a-bb18-0e91ab9438b9">
+      <expression>[Batt_Tr/3 1]</expression>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="754e5560-fa69-4215-9a11-f28a4736510c"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="05c03ac2-25fd-46b4-95bb-370c0e139f0d"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="c946059d-ed27-45db-af9c-cf090be19566">
+      <expression>Batt.A</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="00c8ee3a-e572-4741-ad8e-2d1184f97f59"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="d06b8551-7614-46db-b75d-29c16bd28051"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="428143f0-582b-434d-baff-99e2729c5d8e"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="63310ad7-2d2e-4089-8ae0-cea74314994d">
+      <expression>Fsw</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="0235fd15-9342-456c-8488-a35718fa3fc9"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="84bc49b5-c00c-4ccf-aa84-783e5281448f"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="f137bca9-0c69-469b-b60d-34ca626f053c">
+      <expression>Ts</expression>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="50048ae8-ed06-44e7-bdc4-dab328498b37"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="6a3bdbc9-b4a1-477f-ac7b-d6210b016e1d"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="e9ff9f7c-93d1-43bd-987c-47d536d68f47"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="0f56ea6f-7368-4ca9-b754-917138cba6e9">
+      <expression>sps.TimeStepZ</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="2aa62cae-a002-40eb-8a98-3a51e5e0dcaf"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="55718139-967c-492d-bab7-fd861fd2b498"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="dd8326fe-9eb6-427e-b07d-be5a33bc340b"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="0f81c3bd-ea29-486e-9c5b-ca542cca78c8">
+      <expression>block = gcb;
+[WantBlockChoice,Ts,sps] = powericon(&apos;SawtoothGeneratorInit&apos;,block,Phase,Freq,Ts);
+powericon(&apos;SetInternalModels&apos;,&apos;set&apos;,block,WantBlockChoice);</expression>
+      <isAssignable>false</isAssignable>
+      <ownerBlockPath>BoostConverter/PWM Generator (DC-DC)/Sawtooth Generator</ownerBlockPath>
+      <users type="slsa.mm.param.graph.VariableDefinition" uuid="cef302bd-3b6f-41c4-8ae2-1fafac72b6d5"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="f593690d-f307-46d3-bb29-8d820fdc574d"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="cde041fb-7b7e-4a22-b046-83c51309a091"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="7f87b729-cd27-4ede-9ff5-960c042dc6cc"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="7b327f6e-0de0-4bd1-85d5-b9ce1090e345">
+      <expression>sps.Delay</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="4de37757-b908-4396-baf7-29660b17c51c"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="f6a2289d-81f4-4416-b3dc-87169f95a8b4"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="dd8326fe-9eb6-427e-b07d-be5a33bc340b"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="65cf3538-2640-4fa3-b2cf-1d2753628b7f">
+      <expression>sps.Period</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="bda53249-3ba6-437c-a5c7-ded44e840c45"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="7cf54265-1947-4a84-a155-4179726d1fd8"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="dd8326fe-9eb6-427e-b07d-be5a33bc340b"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="688523c2-edd6-40a1-92bc-fb4d406ea0c3">
+      <expression>Batt.E0</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ee1e9746-3d1d-4594-a930-17cf3d3a8833"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="b8b9a185-f646-4c49-9b30-ac5d59e13023"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="ed20c09f-5adb-4c75-a004-33c697905e72">
+      <expression>Batt.Q</expression>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="e5578fcd-2334-44e1-aeac-bd96c6a489bd"/>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="9d85faf1-6248-4af2-8bcd-c84cade27555"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </expressions>
+    <expressions type="slsa.mm.param.graph.Expression" uuid="57162081-91ca-4748-a524-feea6582ad65">
+      <expression>[Batt_Tr/1000 1]</expression>
+      <users type="slsa.mm.param.graph.BlockParameter" uuid="4cd4da29-4252-4c30-88b6-7a90966163cb"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="05c03ac2-25fd-46b4-95bb-370c0e139f0d"/>
+    </expressions>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="c3fb90dd-3f6d-4ef6-a9b4-c9e24369f47e">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="6ae512f3-f059-4af6-a8fb-286a6f1720c8"/>
+      <fieldName>Batt.kcsat</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="43739c35-6ec3-49ce-a19e-f5913c6b952e">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="22d45213-d9d1-4b57-8041-8782dab43d53"/>
+      <fieldName>Batt.A</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="434066c4-1bd2-4baa-9cea-d6101f328408">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="99c21c90-905d-43e1-a70e-2cf996b80841"/>
+      <fieldName>Batt.E0</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="2d0d7086-4a82-43ec-86a0-64151a1a504d">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="c7f55000-72f7-44cf-84b8-2d881e5a097c"/>
+      <fieldName>S.Mg</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ce45b080-4804-44ed-95a3-01a454d7bd16">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="198fd2ae-761e-4e15-8c2e-4f606a0c4029"/>
+      <fieldName>S.nb.x</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="98af411c-1e02-4c10-ab12-e43a00667c4f">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="62b7d9c6-4f3b-4af7-a6f1-5806957816cb"/>
+      <fieldName>S.MgColNames</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="b807bd39-763e-477c-834e-4aad69558ecf">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="7cff603d-4ff1-4d26-b84d-d19596cf0984"/>
+      <fieldName>Batt.K</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="f88a3b19-5050-4ac2-9b52-bc6633c88ca8">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="198fd2ae-761e-4e15-8c2e-4f606a0c4029"/>
+      <fieldName>S.nb.y</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ccd82d1d-4077-42ba-b4e0-9d258b771e84">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="198fd2ae-761e-4e15-8c2e-4f606a0c4029"/>
+      <fieldName>S.nb.s</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="f7323776-d344-4a54-8e4f-5c568a7dc990">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="198fd2ae-761e-4e15-8c2e-4f606a0c4029"/>
+      <fieldName>S.nb.u</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="812c81e4-9317-4002-a971-85b9deb2088e">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="58a2deca-f7ae-46f3-9478-da59f189124a"/>
+      <fieldName>S.x0</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="889c0699-889f-4f26-b947-47aabce83e0d">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4ef78b96-6b9a-4626-b50f-aa140a9aae9d"/>
+      <fieldName>Batt.Q</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="0892ec02-0604-4a73-aef6-74940a0fbf4f">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="7c818d0d-cfb9-4772-aa8f-f6299bcadcd1"/>
+      <fieldName>S.SwitchVf</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="2aa62cae-a002-40eb-8a98-3a51e5e0dcaf">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="0f56ea6f-7368-4ca9-b754-917138cba6e9"/>
+      <fieldName>sps.TimeStepZ</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="dd8326fe-9eb6-427e-b07d-be5a33bc340b"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ea56fd77-06b2-44f9-8bc3-43b9a5e57c2f">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="34a8d6dd-41b0-488f-84ed-48a595aa47a8"/>
+      <fieldName>S.SwitchType</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="a2e61ceb-b0ea-40b8-b78b-a996ec706138">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="5af85810-4328-41f1-ba8e-00a462566463"/>
+      <fieldName>S.SwitchGateInitialValue</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="7042da70-e719-4ef2-9e8d-2886e6ed782e">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="b75f3406-9f06-4c6b-a4a4-a11553772f64"/>
+      <fieldName>S.SwitchTolerance</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="e6757ca0-f132-496b-b9f1-da76e02feddf">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="3ea5d82a-20bf-43f8-9939-06daab9f8243"/>
+      <fieldName>Batt.B</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="666be41a-b238-43a2-b823-f79636c55752">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="be88bc28-2cd7-4c60-b890-58e05d89d4d6"/>
+      <fieldName>S.SaveMatrices</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="4de37757-b908-4396-baf7-29660b17c51c">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="7b327f6e-0de0-4bd1-85d5-b9ce1090e345"/>
+      <fieldName>sps.Delay</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="dd8326fe-9eb6-427e-b07d-be5a33bc340b"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="cd74bfbd-5d4e-4dc1-990d-237fe946bdf7">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="11fdb41a-7853-4835-b5ab-4bdcd09a4234"/>
+      <fieldName>S.BufferSize</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="1ebc7e19-6699-409d-86b7-7e396754dbd9">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4ef78b96-6b9a-4626-b50f-aa140a9aae9d"/>
+      <fieldName>Batt.lambda</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="11d9490b-b696-4115-b88a-7bd69736da84">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="fc1c4d66-3214-47b8-9b6d-fa7063c573de"/>
+      <fieldName>Batt.Q</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="e198cd90-5192-400c-af25-9035fb024896">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="22d45213-d9d1-4b57-8041-8782dab43d53"/>
+      <fieldName>Batt.B</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="87cd8994-b4b8-43b5-aff4-cc668d97a59f">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="22d45213-d9d1-4b57-8041-8782dab43d53"/>
+      <fieldName>Batt.Q</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="c9fd6301-421e-4fdc-ae60-b90093760a53">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="ee54bbe1-d9f9-44c0-93a9-0cee4c06ee7f"/>
+      <fieldName>Batt.R</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="930d3ea1-324f-409b-96af-0152c7d12805">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="11f61239-1f14-45ae-ac9a-e7d70afef9ca"/>
+      <fieldName>sps.Freq</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="dd8326fe-9eb6-427e-b07d-be5a33bc340b"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="531b9717-1759-4162-8eaf-d71e8e391aea">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="692b53c7-14e0-497c-837e-1a64db911ac8"/>
+      <fieldName>Batt.B</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="00c8ee3a-e572-4741-ad8e-2d1184f97f59">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="c946059d-ed27-45db-af9c-cf090be19566"/>
+      <fieldName>Batt.A</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="bda53249-3ba6-437c-a5c7-ded44e840c45">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="65cf3538-2640-4fa3-b2cf-1d2753628b7f"/>
+      <fieldName>sps.Period</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="dd8326fe-9eb6-427e-b07d-be5a33bc340b"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ee1e9746-3d1d-4594-a930-17cf3d3a8833">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="688523c2-edd6-40a1-92bc-fb4d406ea0c3"/>
+      <fieldName>Batt.E0</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="e5578fcd-2334-44e1-aeac-bd96c6a489bd">
+      <expressions type="slsa.mm.param.graph.Expression" uuid="ed20c09f-5adb-4c75-a004-33c697905e72"/>
+      <fieldName>Batt.Q</fieldName>
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </fieldReferences>
+    <name>BoostConverter</name>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="8b0cabec-e4c8-44b9-b61c-6e2b8fd1b776">
+      <variable type="slsa.mm.param.graph.Variable" uuid="cd8d000e-2cfc-4cb2-b210-98facf521211"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="45f318cd-2012-42c1-bf8b-f717c8b90402"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="8d55031e-a51b-48fc-80a9-4ce0752c01bb">
+      <variable type="slsa.mm.param.graph.Variable" uuid="9be12940-c499-469c-a370-3eee0ce901f0"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="ea7da89b-f1cc-4567-aa6b-15cca3a9ecb9"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="ca87edef-73d5-4664-ad9d-267427c76518">
+      <variable type="slsa.mm.param.graph.Variable" uuid="6a9076e7-b615-4729-842f-9f2330e628c3"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="6a4566e5-c1fd-4b9a-a64e-d942c34c39c0"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="0235fd15-9342-456c-8488-a35718fa3fc9">
+      <variable type="slsa.mm.param.graph.Variable" uuid="f593690d-f307-46d3-bb29-8d820fdc574d"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="63310ad7-2d2e-4089-8ae0-cea74314994d"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="c2ddf5b2-e9d2-4e71-9b67-78d347fdeb6e">
+      <variable type="slsa.mm.param.graph.Variable" uuid="e8b25816-ad01-4595-ab06-bf58e8e224c1"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="d87e3220-3f51-47ae-b567-b2bc6dfe158b"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="7942511e-7ecf-4c37-b1c7-4a05b47aacc6">
+      <variable type="slsa.mm.param.graph.Variable" uuid="492c3e2b-c628-46c0-bb1f-352858f096ee"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="77624115-275b-4b9f-bfb3-9b7cb5105a56"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="d143f8fc-820e-4bf4-9ad5-bf3f7d380c95">
+      <variable type="slsa.mm.param.graph.Variable" uuid="e81626d9-5c1c-4ffe-8c14-4539c0648950"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="d87e3220-3f51-47ae-b567-b2bc6dfe158b"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="19f0dd12-dba8-459f-a967-00817c3f18c0">
+      <variable type="slsa.mm.param.graph.Variable" uuid="5ae593e2-c690-4d36-b9a0-6fe1ef6a2ae7"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="8c8f2dfa-e6d7-49f4-a657-474bdd359f80"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="882fd564-3634-472b-ae4f-f97ac21e8f9d">
+      <variable type="slsa.mm.param.graph.Variable" uuid="84bc49b5-c00c-4ccf-aa84-783e5281448f"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="a2d5f9d6-656d-4fd0-b70a-3a1cf97438ea"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="486bdacd-63e5-4c82-911d-1415011e8000">
+      <variable type="slsa.mm.param.graph.Variable" uuid="880a2213-0f24-4cbd-bcf8-8cab7ecaf69e"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="1f6db395-25e2-4e5b-a870-f88187dd35a6"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="08b9b1bf-5393-4c3e-9c0a-8fd68d0fa25f">
+      <variable type="slsa.mm.param.graph.Variable" uuid="da275cbc-06ab-45c5-813d-d97eec4dc381"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="6ce6cf8f-fd8a-4817-b708-d63e7487ee3b"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="c8ae8b60-ecb7-4bc3-ad91-8a695cd75c35">
+      <variable type="slsa.mm.param.graph.Variable" uuid="05c03ac2-25fd-46b4-95bb-370c0e139f0d"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="2682a817-10f6-445a-a0e2-c3702b2a15e3"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="b82a701b-d953-46ab-937a-71face76147c">
+      <variable type="slsa.mm.param.graph.Variable" uuid="5295a588-e3cf-4c7c-8845-3e4a0036b1c9"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="f9f2b7d1-b3f0-4ef4-ad86-d8bc9df491c4"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="f58cc654-75a9-49e5-bcf2-d7091e384c4f">
+      <variable type="slsa.mm.param.graph.Variable" uuid="321b3f37-2e35-4681-a4eb-1c3f0aab3e76"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="058c5611-75bd-4930-8b01-812020e1b411"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="03f15fd1-c393-4da1-9160-ba230655c057">
+      <variable type="slsa.mm.param.graph.Variable" uuid="fdec184d-d091-4540-a874-745537e11380"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="952f44d9-1a3d-47cf-b09c-2036a98f9273"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="ebb75c0d-d1ee-43c2-afd7-0bed03c27b34">
+      <variable type="slsa.mm.param.graph.Variable" uuid="85fc9472-669f-4244-b646-4730d0d6c59a"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="de9797e1-44c5-48c6-a30c-77c3afa17a7f"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="5ddd63a2-554e-44c6-92b0-7f533a94875f">
+      <variable type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="15e0c339-f7ff-474f-ad4b-a773194f1a5d">
+      <variable type="slsa.mm.param.graph.Variable" uuid="cfea3b35-8766-4b83-b8ed-629e9cc5daff"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="a9650a6a-cfaa-42b1-aa19-09e8e2c542dc"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="00254b7b-803a-4d55-956e-febdebfb73a4">
+      <variable type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="29b1ffa7-37c8-4482-be7a-b121f9c3069b"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="c6883497-17f3-4459-933d-570c9e5c183d">
+      <variable type="slsa.mm.param.graph.Variable" uuid="cde041fb-7b7e-4a22-b046-83c51309a091"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="1f6db395-25e2-4e5b-a870-f88187dd35a6"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="a5ae330d-e98b-45e4-b64d-8ed3dc83b7fa">
+      <variable type="slsa.mm.param.graph.Variable" uuid="e9ff9f7c-93d1-43bd-987c-47d536d68f47"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="1f6db395-25e2-4e5b-a870-f88187dd35a6"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="50048ae8-ed06-44e7-bdc4-dab328498b37">
+      <variable type="slsa.mm.param.graph.Variable" uuid="7f87b729-cd27-4ede-9ff5-960c042dc6cc"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="f137bca9-0c69-469b-b60d-34ca626f053c"/>
+    </variableDefinitions>
+    <variableDefinitions type="slsa.mm.param.graph.VariableDefinition" uuid="cef302bd-3b6f-41c4-8ae2-1fafac72b6d5">
+      <variable type="slsa.mm.param.graph.Variable" uuid="dd8326fe-9eb6-427e-b07d-be5a33bc340b"/>
+      <expression type="slsa.mm.param.graph.Expression" uuid="0f81c3bd-ea29-486e-9c5b-ca542cca78c8"/>
+    </variableDefinitions>
+    <variables type="slsa.mm.param.graph.Variable" uuid="85fc9472-669f-4244-b646-4730d0d6c59a">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="ebb75c0d-d1ee-43c2-afd7-0bed03c27b34"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>expZone</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="05c03ac2-25fd-46b4-95bb-370c0e139f0d">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="c8ae8b60-ecb7-4bc3-ad91-8a695cd75c35"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="89e12737-6717-498a-bb18-0e91ab9438b9"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="57162081-91ca-4748-a524-feea6582ad65"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>Batt_Tr</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="cde041fb-7b7e-4a22-b046-83c51309a091">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="c6883497-17f3-4459-933d-570c9e5c183d"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="0f81c3bd-ea29-486e-9c5b-ca542cca78c8"/>
+      <name>Phase</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="9f3c2a1e-d0c3-4c46-bc7c-a6836566dcaa"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="cd8d000e-2cfc-4cb2-b210-98facf521211">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="8b0cabec-e4c8-44b9-b61c-6e2b8fd1b776"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>BatType</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="9be12940-c499-469c-a370-3eee0ce901f0">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="8d55031e-a51b-48fc-80a9-4ce0752c01bb"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>NomV</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="e8b25816-ad01-4595-ab06-bf58e8e224c1">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="c2ddf5b2-e9d2-4e71-9b67-78d347fdeb6e"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>NomQ</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="e81626d9-5c1c-4ffe-8c14-4539c0648950">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="d143f8fc-820e-4bf4-9ad5-bf3f7d380c95"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>MaxQ</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="6a9076e7-b615-4729-842f-9f2330e628c3">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="ca87edef-73d5-4664-ad9d-267427c76518"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>PresetModel</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="da275cbc-06ab-45c5-813d-d97eec4dc381">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="08b9b1bf-5393-4c3e-9c0a-8fd68d0fa25f"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>Dis_rate</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="5ae593e2-c690-4d36-b9a0-6fe1ef6a2ae7">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="19f0dd12-dba8-459f-a967-00817c3f18c0"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="22d45213-d9d1-4b57-8041-8782dab43d53"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4ef78b96-6b9a-4626-b50f-aa140a9aae9d"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>SOC</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="492c3e2b-c628-46c0-bb1f-352858f096ee">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="7942511e-7ecf-4c37-b1c7-4a05b47aacc6"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>MinV</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="5295a588-e3cf-4c7c-8845-3e4a0036b1c9">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="b82a701b-d953-46ab-937a-71face76147c"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>FullV</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="321b3f37-2e35-4681-a4eb-1c3f0aab3e76">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="f58cc654-75a9-49e5-bcf2-d7091e384c4f"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>R</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="fdec184d-d091-4540-a874-745537e11380">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="03f15fd1-c393-4da1-9160-ba230655c057"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4763711c-d64e-423e-adc4-6e00fd5d33fc"/>
+      <name>Normal_OP</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="5ddd63a2-554e-44c6-92b0-7f533a94875f"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="3ea5d82a-20bf-43f8-9939-06daab9f8243"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="7cff603d-4ff1-4d26-b84d-d19596cf0984"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="ed20c09f-5adb-4c75-a004-33c697905e72"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="6ae512f3-f059-4af6-a8fb-286a6f1720c8"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="688523c2-edd6-40a1-92bc-fb4d406ea0c3"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="c946059d-ed27-45db-af9c-cf090be19566"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="692b53c7-14e0-497c-837e-1a64db911ac8"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="ee54bbe1-d9f9-44c0-93a9-0cee4c06ee7f"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="22d45213-d9d1-4b57-8041-8782dab43d53"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="fc1c4d66-3214-47b8-9b6d-fa7063c573de"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="4ef78b96-6b9a-4626-b50f-aa140a9aae9d"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="99c21c90-905d-43e1-a70e-2cf996b80841"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="c3fb90dd-3f6d-4ef6-a9b4-c9e24369f47e"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="434066c4-1bd2-4baa-9cea-d6101f328408"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="43739c35-6ec3-49ce-a19e-f5913c6b952e"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="1ebc7e19-6699-409d-86b7-7e396754dbd9"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="889c0699-889f-4f26-b947-47aabce83e0d"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="c9fd6301-421e-4fdc-ae60-b90093760a53"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="e198cd90-5192-400c-af25-9035fb024896"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="11d9490b-b696-4115-b88a-7bd69736da84"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="87cd8994-b4b8-43b5-aff4-cc668d97a59f"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="531b9717-1759-4162-8eaf-d71e8e391aea"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="00c8ee3a-e572-4741-ad8e-2d1184f97f59"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ee1e9746-3d1d-4594-a930-17cf3d3a8833"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="e5578fcd-2334-44e1-aeac-bd96c6a489bd"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="b807bd39-763e-477c-834e-4aad69558ecf"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="e6757ca0-f132-496b-b9f1-da76e02feddf"/>
+      <name>Batt</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="00254b7b-803a-4d55-956e-febdebfb73a4"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="11fdb41a-7853-4835-b5ab-4bdcd09a4234"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="be88bc28-2cd7-4c60-b890-58e05d89d4d6"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="b75f3406-9f06-4c6b-a4a4-a11553772f64"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="5af85810-4328-41f1-ba8e-00a462566463"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="34a8d6dd-41b0-488f-84ed-48a595aa47a8"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="7c818d0d-cfb9-4772-aa8f-f6299bcadcd1"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="62b7d9c6-4f3b-4af7-a6f1-5806957816cb"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="58a2deca-f7ae-46f3-9478-da59f189124a"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="198fd2ae-761e-4e15-8c2e-4f606a0c4029"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="c7f55000-72f7-44cf-84b8-2d881e5a097c"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="2d0d7086-4a82-43ec-86a0-64151a1a504d"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ce45b080-4804-44ed-95a3-01a454d7bd16"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="0892ec02-0604-4a73-aef6-74940a0fbf4f"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="98af411c-1e02-4c10-ab12-e43a00667c4f"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="f88a3b19-5050-4ac2-9b52-bc6633c88ca8"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ccd82d1d-4077-42ba-b4e0-9d258b771e84"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="f7323776-d344-4a54-8e4f-5c568a7dc990"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="812c81e4-9317-4002-a971-85b9deb2088e"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="ea56fd77-06b2-44f9-8bc3-43b9a5e57c2f"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="a2e61ceb-b0ea-40b8-b78b-a996ec706138"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="7042da70-e719-4ef2-9e8d-2886e6ed782e"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="666be41a-b238-43a2-b823-f79636c55752"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="cd74bfbd-5d4e-4dc1-990d-237fe946bdf7"/>
+      <name>S</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="ef3256f4-f8d1-4073-bd37-2073108d949c"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="880a2213-0f24-4cbd-bcf8-8cab7ecaf69e">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="486bdacd-63e5-4c82-911d-1415011e8000"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="a9650a6a-cfaa-42b1-aa19-09e8e2c542dc"/>
+      <name>SwTol</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="b54ce50e-6611-45f0-88ce-4632877756d8"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="cfea3b35-8766-4b83-b8ed-629e9cc5daff">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="15e0c339-f7ff-474f-ad4b-a773194f1a5d"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="29b1ffa7-37c8-4482-be7a-b121f9c3069b"/>
+      <name>SwTol</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="ef3256f4-f8d1-4073-bd37-2073108d949c"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="84bc49b5-c00c-4ccf-aa84-783e5281448f">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="882fd564-3634-472b-ae4f-f97ac21e8f9d"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="63310ad7-2d2e-4089-8ae0-cea74314994d"/>
+      <name>Fsw</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="e82aef12-30a6-4b50-8eb5-b53c19a2e99f"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="f593690d-f307-46d3-bb29-8d820fdc574d">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="0235fd15-9342-456c-8488-a35718fa3fc9"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="0f81c3bd-ea29-486e-9c5b-ca542cca78c8"/>
+      <name>Freq</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="9f3c2a1e-d0c3-4c46-bc7c-a6836566dcaa"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="e9ff9f7c-93d1-43bd-987c-47d536d68f47">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="a5ae330d-e98b-45e4-b64d-8ed3dc83b7fa"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="f137bca9-0c69-469b-b60d-34ca626f053c"/>
+      <name>Ts</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="e82aef12-30a6-4b50-8eb5-b53c19a2e99f"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="7f87b729-cd27-4ede-9ff5-960c042dc6cc">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="50048ae8-ed06-44e7-bdc4-dab328498b37"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="0f81c3bd-ea29-486e-9c5b-ca542cca78c8"/>
+      <name>Ts</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="9f3c2a1e-d0c3-4c46-bc7c-a6836566dcaa"/>
+    </variables>
+    <variables type="slsa.mm.param.graph.Variable" uuid="dd8326fe-9eb6-427e-b07d-be5a33bc340b">
+      <definition type="slsa.mm.param.graph.VariableDefinition" uuid="cef302bd-3b6f-41c4-8ae2-1fafac72b6d5"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="0f56ea6f-7368-4ca9-b754-917138cba6e9"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="11f61239-1f14-45ae-ac9a-e7d70afef9ca"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="65cf3538-2640-4fa3-b2cf-1d2753628b7f"/>
+      <expressions type="slsa.mm.param.graph.Expression" uuid="7b327f6e-0de0-4bd1-85d5-b9ce1090e345"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="bda53249-3ba6-437c-a5c7-ded44e840c45"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="4de37757-b908-4396-baf7-29660b17c51c"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="930d3ea1-324f-409b-96af-0152c7d12805"/>
+      <fieldReferences type="slsa.mm.param.graph.FieldReference" uuid="2aa62cae-a002-40eb-8a98-3a51e5e0dcaf"/>
+      <name>sps</name>
+      <workspace type="slsa.mm.param.graph.Workspace" uuid="9f3c2a1e-d0c3-4c46-bc7c-a6836566dcaa"/>
+    </variables>
+    <workspaces type="slsa.mm.param.graph.Workspace" uuid="b54ce50e-6611-45f0-88ce-4632877756d8">
+      <name>BoostConverter:1</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.param.graph.Variable" uuid="880a2213-0f24-4cbd-bcf8-8cab7ecaf69e"/>
+    </workspaces>
+    <workspaces type="slsa.mm.param.graph.Workspace" uuid="a5dc55e4-aa83-4388-9c95-0b4317938ee7">
+      <name>BoostConverter:22</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.param.graph.Variable" uuid="85fc9472-669f-4244-b646-4730d0d6c59a"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="05c03ac2-25fd-46b4-95bb-370c0e139f0d"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="cd8d000e-2cfc-4cb2-b210-98facf521211"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="9be12940-c499-469c-a370-3eee0ce901f0"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="e8b25816-ad01-4595-ab06-bf58e8e224c1"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="e81626d9-5c1c-4ffe-8c14-4539c0648950"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="6a9076e7-b615-4729-842f-9f2330e628c3"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="da275cbc-06ab-45c5-813d-d97eec4dc381"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="5ae593e2-c690-4d36-b9a0-6fe1ef6a2ae7"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="492c3e2b-c628-46c0-bb1f-352858f096ee"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="5295a588-e3cf-4c7c-8845-3e4a0036b1c9"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="321b3f37-2e35-4681-a4eb-1c3f0aab3e76"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="fdec184d-d091-4540-a874-745537e11380"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="46e5bd0f-ec1f-4523-a1bb-c9104d6cfae2"/>
+    </workspaces>
+    <workspaces type="slsa.mm.param.graph.Workspace" uuid="9f3c2a1e-d0c3-4c46-bc7c-a6836566dcaa">
+      <name>BoostConverter:7:8</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.param.graph.Variable" uuid="dd8326fe-9eb6-427e-b07d-be5a33bc340b"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="cde041fb-7b7e-4a22-b046-83c51309a091"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="f593690d-f307-46d3-bb29-8d820fdc574d"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="7f87b729-cd27-4ede-9ff5-960c042dc6cc"/>
+    </workspaces>
+    <workspaces type="slsa.mm.param.graph.Workspace" uuid="ef3256f4-f8d1-4073-bd37-2073108d949c">
+      <name>BoostConverter:1:741</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.param.graph.Variable" uuid="cfea3b35-8766-4b83-b8ed-629e9cc5daff"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="c8b2b82d-d86a-4842-b968-1eb5d4804daf"/>
+    </workspaces>
+    <workspaces type="slsa.mm.param.graph.Workspace" uuid="e82aef12-30a6-4b50-8eb5-b53c19a2e99f">
+      <name>BoostConverter:7</name>
+      <type>MASK</type>
+      <variables type="slsa.mm.param.graph.Variable" uuid="84bc49b5-c00c-4ccf-aa84-783e5281448f"/>
+      <variables type="slsa.mm.param.graph.Variable" uuid="e9ff9f7c-93d1-43bd-987c-47d536d68f47"/>
+    </workspaces>
+    <contextManager type="slsa.mm.param.graph.ContextManager" uuid="5c401bb0-9791-47c1-9d8d-d85cf541e639"/>
+  </slsa.mm.param.graph.VariableRegistry>
+</MF0>
